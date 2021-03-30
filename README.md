@@ -224,6 +224,7 @@ Core Libraries are bundled in OpenResty package, and you don't need to separatel
 * [dodolu](https://github.com/zhangf911/dodolu) — A lightweight web framework based on OpenResty
 * [Octopus](https://github.com/cyberz-eu/octopus) — The Lua Web Platform
 * [vicky](https://github.com/RocksonZeta/vicky) — A restful framework for openresty,inspired by expressjs and koa.
+* [fasty](https://github.com/solisoft/fasty) - A CMS based on openresty, arangoDB, lapis & riotjs
 
 #### Web Development Essentials
 
@@ -249,6 +250,7 @@ Core Libraries are bundled in OpenResty package, and you don't need to separatel
 
 * [lua-resty-redis-ratelimit](https://github.com/timebug/lua-resty-redis-ratelimit) — Limit the request processing rate between multiple NGINX instances backed by Redis
 * [lua-resty-limit-rate](https://github.com/upyun/lua-resty-limit-rate) - Lua module for limiting request rate for OpenResty/ngx_lua, using the "token bucket" method
+* [lua-resty-global-throttle](https://github.com/ElvinEfendi/lua-resty-global-throttle) — Distributed rate limiter / throttler based on [Cloudflare's blog post on approximate sliding window](https://blog.cloudflare.com/counting-things-a-lot-of-different-things/)
 
 #### Request Argments Parsers
 
@@ -314,6 +316,7 @@ Core Libraries are bundled in OpenResty package, and you don't need to separatel
 * [lua-argon2-ffi](https://github.com/thibaultCha/lua-argon2-ffi) — LuaJIT FFI binding for the Argon2 password hashing algorithm
 * [lua-resty-des](https://github.com/lilien1010/lua-resty-des) — Lua interface to make DES ECB encryption
 * [WXBizMsgCrypt](https://github.com/TheNorthMemory/WXBizMsgCrypt) — Lua version of the WeChat Message Cryptography
+* [luasodium](https://github.com/jprjr/luasodium) - Lua bindings to libsodium, compatible with both Lua C and LuaJIT FFI APIs.
 
 #### Networking
 
@@ -360,6 +363,7 @@ Connection utilities for lua-resty-mysql, support for read and write separation�
 * [lua-resty-postgres](https://github.com/azurewang/lua-resty-postgres) — Nonblocking Lua PostgreSQL driver library for ngx_lua
 * [pgmoon](https://github.com/leafo/pgmoon) — A pure Lua Postgres driver for use in OpenResy & more
 * [lua-resty-couchbase](https://github.com/ZigzagAK/lua-resty-couchbase) — OpenResty CouchBase module
+* [iqiyi/lua-resty-couchbase](https://github.com/iqiyi/lua-resty-couchbase) — Lua couchbase client driver for the ngx_lua based on the cosocket API
 * [lua-resty-couchdb](https://github.com/paragasu/lua-resty-couchdb) — Lua resty minimal couchdb client using nginx proxy ngx.location_capture
 * [lua-resty-orm](https://github.com/kran/lua-resty-orm) — Simple ORM for OpenResty
 * [lua-resty-mvc](https://github.com/pronan/lua-resty-mvc) — You don't need that complicated MVC framework! With just a plain folder with several simple files, you can enjoy basic but most frequently used MVC features.
@@ -447,6 +451,7 @@ Connection utilities for lua-resty-mysql, support for read and write separation�
 * [lua-resty-counter](https://github.com/Kong/lua-resty-counter) — Lock-free counter for OpenResty
 * [lua-resty-sync](https://github.com/upyun/lua-resty-sync) - This lua-resty library help you to synchronize data(from redis, mysql, memcached and so on) based on the version changes
 * [NetStorageKit-Lua](https://github.com/rainingmaster/NetStorageKit-Lua) — Akamai Netstorage (File/Object Store) API for Openresty
+* [lua-resty-wirefilter](https://github.com/satrobit/lua-resty-wirefilter) — LuaJIT FFI bindings to wirefilter - An execution engine for Wireshark-like filters
 
 #### Date and Time
 
